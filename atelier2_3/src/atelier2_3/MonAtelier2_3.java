@@ -9,13 +9,16 @@ public class MonAtelier2_3 extends Atelier2_3 {
 	@Override
 	public Accepteur fournirAccepteur() {
 		// TODO Auto-generated method stub
-		return null;
+		return new MonAccepteur();
 	}
 
 	@Override
 	public Formateur fournirFormateur() {
 		// TODO Auto-generated method stub
-		return null;
+		return new MonFormateur();
 	}
 
+	public static void main(String[] args) {
+		new MonAtelier2_3().valider();
+	}
 }
