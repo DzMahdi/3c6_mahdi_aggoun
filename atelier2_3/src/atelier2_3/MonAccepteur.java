@@ -14,7 +14,7 @@ public class MonAccepteur implements Accepteur {
 			Chat chat = (Chat) animal;
 
 			if (chat.getNombreOiseauxAttrapes() > 6) {
-				accepter = true;
+				
 			} else {
 				accepter = false;
 			}
