@@ -1,6 +1,7 @@
 package tutoriel2_3;
 
 import tutoriels.tutoriel2_3.Formateur;
+import tutoriels.tutoriel2_3.vehicules.Auto;
 import tutoriels.tutoriel2_3.vehicules.Vehicule;
 
 public class MonFormateur implements Formateur {
