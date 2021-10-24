@@ -1,0 +1,42 @@
+package tutoriel3_1;
+
+import tutoriels.tutoriel3_1.Planteur;
+import tutoriels.tutoriel3_1.Tutoriel3_1;
+import tutoriels.tutoriel3_1.Vehicule;
+
+public class MonTutoriel3_1 extends Tutoriel3_1{
+
+	public static void main(String [] args) {
+		
+		new MonTutoriel3_1().valider();
+	}
+	
+	
+	@Override
+	public Object creerTableauChaines(String[] chainesInitiales) {
+		// TODO Auto-generated method stub
+		return new MonTableau(chainesInitiales);
+	}
+
+	@Override
+	public Object creerTableauEntiers(Integer[] entiersInitiaux) {
+		// TODO Auto-generated method stub
+		return new  MonTableau(entiersInitiaux);
+	}
+
+	@Override
+	public Object creerTableauVehicules(Vehicule[] vehiculesInitiaux) {
+		// TODO Auto-generated method stub
+		return new MonTableau(vehiculesInitiaux);
+	}
+
+	@Override
+	public Planteur fournirPlanteur() {
+		// TODO Auto-generated method stub
+		return new MonPlanteur();
+	}
+	
+	
+	
+
+}
