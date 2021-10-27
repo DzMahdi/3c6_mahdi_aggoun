@@ -17,7 +17,10 @@ public class ChercheurNaif<C extends Comparable<C>> implements Chercheur<C> {
 			}
 		}
 
+	
+		
 		return indice;
+	
 	}
 
 }
