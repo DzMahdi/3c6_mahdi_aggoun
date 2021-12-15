@@ -78,7 +78,7 @@ public abstract class TesteurDeListeAbstrait implements TesteurDeListe {
 
 			resultat.add(elementAuHasard);
 
-			//liste.remove(positionAuHasard);
+			liste.remove(positionAuHasard);
 
 		}
 
